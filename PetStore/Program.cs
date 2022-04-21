@@ -43,9 +43,9 @@ namespace PetStore
                     StringBuilder editOptions=new StringBuilder();
                     editOptions.AppendLine("1. edit weight");
                     editOptions.AppendLine("2. edit Adoption status");
-                    editOptions.AppendLine("3. Go back")
+                    editOptions.AppendLine("3. Go back");
                         while (editing)
-                    {
+                   {
                         var editingAction = Prompt(editOptions.ToString());
                         if(editingAction == "1")
                         {
